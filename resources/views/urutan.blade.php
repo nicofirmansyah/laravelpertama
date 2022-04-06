@@ -7,6 +7,6 @@
     <title>Urutan</title>
 </head>
 <body>
-    Urutasn ke - {{$ke}}
+    Urutan ke - {{$ke}}
 </body>
 </html>
