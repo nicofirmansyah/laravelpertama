@@ -15,9 +15,9 @@ class CobaController extends Controller
     {
 
         $numbers = [
-                ['ke' => 1, 'nomor' => 20],
-                ['ke' => 2, 'nomor' => 30],
-                ['ke' => 3, 'nomor' => 40],
+                ['ke' => $ke, 'nomor' => 20],
+                ['ke' => $ke, 'nomor' => 30],
+                ['ke' => $ke, 'nomor' => 40],
         ];
 
 

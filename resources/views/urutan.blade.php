@@ -4,7 +4,7 @@
 
 @section('content')
 
-@foreach ($numbers as number)
+@foreach ($numbers as $number)
     <h1>Urutan ke - {{ $number['ke'] }}</h1>
     <h3>Nomor ke - {{ $number['nomor'] }}</h3>
 
