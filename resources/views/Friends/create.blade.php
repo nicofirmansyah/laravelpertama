@@ -6,6 +6,7 @@
 <form action ="/friends" method="POST">
   @csrf
   <div class="mb-3">
+    <center> <h2>Tambah Friends</h2></center>
     <label for="exampleInputEmail1" class="form-label">Nama</label>
     <input type="text" class="form-control" id="exampleInputEmail1" name="nama" aria-describedby="emailHelp" value="{{ old('nama') }}">
     @error('nama')
@@ -26,7 +27,10 @@
     <div class="alert alert-danger">{{ $message }}</div>
     @enderror
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+
+  <div class="text-right">
+  <button type="submit" class="btn btn-primary"><b class="fas fa-plus">submit</b></button>
+  </div>
 </form>
 
 @endsection
